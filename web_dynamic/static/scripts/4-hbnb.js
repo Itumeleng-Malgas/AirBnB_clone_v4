@@ -63,7 +63,7 @@ $(document).ready(function () {
 
     $("button").click(function () {
         $.post({
-            url: 'http://0.0.0.à:5001/api/v1/places_search',
+            url: 'http://0.0.0.0:5001/api/v1/places_search',
             data: JSON.stringify({amenities: Object.keys(amenities)}),
             headers: {
                 "Content-Type": "application/json",
